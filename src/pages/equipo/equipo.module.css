@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.equipo_container_general h1 {
+  font-size: 3rem;
+}
+
+.equipo_container_general h2 {
+  font-size: 2rem;
+}
+
+.equipo_container_general h3 {
+  font-size: 1rem;
+}
+
+.equipo_container_general h4 {
+  font-size: 0.5rem;
+}
+
+.equipo_container_general h5 {
+  font-size: 0.4rem;
+}
+
+.equipo_container_general h6 {
+  font-size: 0.3rem;
+}
+
+.equipo_container_general {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  top: 50px;
+  margin-top: 60px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.equipo_container_general h2 {
+  margin-bottom: 40px;
+}
+
+.equipos_containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.equipo_container {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.equipo_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 390px) {
+  .equipo_container_general {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 440px) {
+  .equipo_container_general {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+
+}
+
+@media (min-width: 515px) {
+  .equipos_containers {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 540px) {
+  .equipo_container {
+    width: 45%;
+  }
+
+
+  .equipos_containers {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 640px) {
+  .equipo_container_general h2 {
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 940px) {
+  .equipo_container {
+    width: 35%;
+  }
+
+  .equipo_container_general h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1115px) {
+  .equipo_container {
+    width: 32.5%;
+  }
+
+  .equipo_container_general {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 1450px) {
+  .equipo_container_general {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1550px) {
+  .equipo_container_general {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1650px) {
+  .equipo_container_general {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1750px) {
+  .equipo_container_general {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1850px) {
+  .equipo_container_general {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1950px) {
+  .equipo_container_general {
+    width: 65%;
+  }
+}
+
+@media (min-width: 2005px) {
+  .equipo_container_general {
+    width: 60%;
+  }
+}
+
+@media (min-width: 2500px) {
+  .equipo_container_general {
+    width: 50%;
+  }
+}
+
